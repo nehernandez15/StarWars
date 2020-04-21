@@ -1,0 +1,64 @@
+div#banner{
+    background: url("src/assets/img/banner-star-wars.jpg") no-repeat center;
+    width: 100%;
+    height: 328px;
+    margin: 0;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div#bannerSmall{
+    background-image: url("src/assets/img/banner-star-wars.jpg");
+    width: 100%;
+    height: 145px;
+    margin: 0;
+    background-size: cover;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+#redesSociales>a{
+    color: white;
+    padding-left: 6px;
+}
+#redesSociales{
+    margin-left: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botonCorrousel{
+    background-color: black;
+    border-color: white;
+    margin-top: 8px;
+}
+
+#buttonsCorrousel{
+    position: absolute;
+    margin-top: 220px;
+    z-index: 2;
+}
+
+#playFilm{
+    position: absolute;
+    margin-top: -60px;
+    color: white;
+    z-index: 2;
+}
+
+#carouselStarWars{
+    z-index: auto;
+    position: relative
+}
+
+#textoStarWars{
+    position: absolute;
+    margin-top: 240px;
+    z-index: 2;
+    color: yellow;
+    font-weight: bold;
+    font-size: 13.5px;
+}

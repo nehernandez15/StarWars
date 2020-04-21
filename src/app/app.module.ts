@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { PlanetComponent } from './components/planet/planet.component';
 import { SpecieComponent } from './components/specie/specie.component';
 import { VehicleComponent } from './components/vehicle/vehicle.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -32,12 +34,14 @@ const appRoutes: Routes = [
     HomeComponent,
     PlanetComponent,
     SpecieComponent,
-    VehicleComponent
+    VehicleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    HttpClientModule
+    HttpClientModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
