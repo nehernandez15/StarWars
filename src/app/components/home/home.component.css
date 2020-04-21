@@ -11,3 +11,23 @@
 .container-fluid{
     padding: 0 !important;
 }
+
+
+/* footer middle */
+.footer-middle { background:#333333; color:#ffffff;}
+.footer-widget { padding:40px 0;}
+.footer-widget h3 {    border-bottom: 1px solid #848494;  color: #ffffff;
+    font-size: 18px;
+	font-weight:500;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;}
+
+
+.lead { color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 300;}
+
+
+
