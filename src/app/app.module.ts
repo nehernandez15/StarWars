@@ -13,6 +13,7 @@ import { SpecieComponent } from './components/specie/specie.component';
 import { VehicleComponent } from './components/vehicle/vehicle.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -41,7 +42,10 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     HttpClientModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    NgxLoadingModule.forRoot({
+      fullScreenBackdrop: true
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
