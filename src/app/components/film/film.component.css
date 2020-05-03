@@ -1,0 +1,22 @@
+.gris {
+    background-color: grey;
+}
+
+.negro {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.centro {
+    text-align: center;
+    display: inline-block;
+}
+
+.separador {
+    background-color: black;
+    height: 20px;
+}
+
+.parrafo {
+    margin-left: 30px;
+}
