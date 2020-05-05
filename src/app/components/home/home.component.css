@@ -1,4 +1,5 @@
 #bodyHome{
+
     background: url("src/assets/img/background-stars.jpg") no-repeat center;
     width: 100%;
     height: 328px;
@@ -9,8 +10,75 @@
     background-size: cover;
 }
 .container-fluid{
+    background: url("src/assets/img/background-stars.jpg") no-repeat center;
     padding: 0 !important;
 }
+
+
+/*==== Header Bottom ====*/
+.header-bottom { z-index:100; position:relative;}
+/* container menu */
+.header-bottom .container { 
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 50%, rgba(255,255,255,0.85) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0.85))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 50%,rgba(255,255,255,0.85) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 50%,rgba(255,255,255,0.85) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 50%,rgba(255,255,255,0.85) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 50%,rgba(255,255,255,0.85) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9ffffff',GradientType=0 ); /* IE6-9 */
+
+-webkit-box-shadow: 0 0 1px rgba(50, 50, 50, 0.20);
+-moz-box-shadow:    0 0 1px rgba(50, 50, 50, 0.20);
+box-shadow:         0 0 1px rgba(50, 50, 50, 0.20);
+
+    }
+
+.header-bottom.visible .container{ background:none;-webkit-box-shadow: none; -moz-box-shadow: none;box-shadow:none;}
+
+.header-bottom.menu-full-width .container { 
+background: none;
+-webkit-box-shadow: none;
+-moz-box-shadow:    none;
+box-shadow:         none;
+    }   
+
+
+
+
+
+.botonCorrousel{
+    background-color: black;
+    border-color: white;
+    margin-top: 8px;
+}
+
+#buttonsCorrousel{
+    position: absolute;
+    margin-top: 220px;
+    z-index: 2;
+}
+
+#playFilm{
+    position: absolute;
+    margin-top: -60px;
+    color: white;
+    z-index: 2;
+}
+
+#carouselStarWars{
+    z-index: auto;
+    position: relative
+}
+
+#textoStarWars{
+    position: absolute;
+    margin-top: 240px;
+    z-index: 2;
+    color: yellow;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
 
 
 /* footer middle */
@@ -31,3 +99,27 @@
 
 
 
+
+/* #Typography 
+================================================== */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { color:#f9d607;}
+h1, .h1 {font:300 40px/42px 'Raleway',Helvetica,Arial,sans-serif; margin:0 0 20px;}
+h2, .h2 {font:300 34px/38px 'Raleway',Helvetica,Arial,sans-serif; margin:0 0 20px;}
+h3, .h3 {font:300 28px/32px 'Raleway',Helvetica,Arial,sans-serif; margin:0 0 20px;}
+h4, .h4 {font:300 24px/28px 'Raleway',Helvetica,Arial,sans-serif; }
+h5, .h5 {font:500 20px/24px 'Raleway',Helvetica,Arial,sans-serif; }
+h6, .h6 {font:500 16px/20px 'Raleway',Helvetica,Arial,sans-serif; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small { font-weight:300; color: inherit;}
+
+.title-large{font-size: 64px; line-height:1.2;}
+.title-medium{font-size: 54px; line-height:1.2;}
+.title-small{font-size: 44px;line-height:1.2;}
+.title-color{}
+
+@media all and (max-width: 800px) {
+h1, .h1 {font-size: 38px;}
+h2, .h2 {font-size: 32px;}
+
+}
