@@ -1,4 +1,5 @@
-<table class="table table-dark">
+<!--
+ <table class="table table-dark">
     <thead>
       <tr>
         <th scope="col">Name</th>
@@ -15,5 +16,29 @@
         <td>{{item.average_height}}</td>
       </tr>      
     </tbody>
-  </table>
+  </table> -->
+
+  <div class="negro">
+    <div class="container" *ngFor="let item of specieModel.results; index as i">
+        <div class="separador"></div>
+        <div class="row gris">
+            <div class="col-md centro">
+                <h3>{{item.name}}</h3>
+                <br>
+                <h5>Clasificacion:{{item.classification}}</h5><br>
+                <h5>Designacion:{{item.designation}}</h5><br>
+                <h5>Estatura Promedio:{{item.average_height}}</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-13">
+                    <img src="assets\imgEspecies\{{i+1}}.jpg" class="imagen">
+                </div>     
+            </div>
+        </div>
+    </div>
+</div>
+
+
+-->
+
   <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>

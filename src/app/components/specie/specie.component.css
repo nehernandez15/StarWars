@@ -1,0 +1,29 @@
+.gris {
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.negro {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.centro {
+    text-align: center;
+    display: inline-block;
+}
+
+.separador {
+    background-color: black;
+    height: 20px;
+}
+
+.parrafo {
+    margin-left: 30px;
+}
+.imagen{
+
+    width: 250px;
+    margin-right: 15px;
+    
+}
