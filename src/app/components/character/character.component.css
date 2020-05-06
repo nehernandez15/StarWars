@@ -1,0 +1,14 @@
+.container-fluid {
+    background: url("src/assets/img/background-stars.jpg") no-repeat center;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
