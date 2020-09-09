@@ -1,0 +1,3 @@
+https://swapi.co/api/people
+people
+http://swapi.py4e.com/api/people
