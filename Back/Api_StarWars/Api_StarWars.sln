@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_StarWars", "Api_StarWars\Api_StarWars.csproj", "{74146CFF-8E6B-412E-B396-8B33DC38ED39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_StarWars.Business", "Api_StarWars.Business\Api_StarWars.Business.csproj", "{5246E9F3-C513-46B1-9CF0-0E2268B6340F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_StarWars.Entities", "Api_StarWars.Entities\Api_StarWars.Entities.csproj", "{5169DF79-D45C-4404-A909-DBD26DE020FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74146CFF-8E6B-412E-B396-8B33DC38ED39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74146CFF-8E6B-412E-B396-8B33DC38ED39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74146CFF-8E6B-412E-B396-8B33DC38ED39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74146CFF-8E6B-412E-B396-8B33DC38ED39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5246E9F3-C513-46B1-9CF0-0E2268B6340F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5246E9F3-C513-46B1-9CF0-0E2268B6340F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5246E9F3-C513-46B1-9CF0-0E2268B6340F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5246E9F3-C513-46B1-9CF0-0E2268B6340F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5169DF79-D45C-4404-A909-DBD26DE020FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5169DF79-D45C-4404-A909-DBD26DE020FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5169DF79-D45C-4404-A909-DBD26DE020FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5169DF79-D45C-4404-A909-DBD26DE020FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BD8A4F3-E9F1-4E0A-A543-4476A5CE3475}
+	EndGlobalSection
+EndGlobal

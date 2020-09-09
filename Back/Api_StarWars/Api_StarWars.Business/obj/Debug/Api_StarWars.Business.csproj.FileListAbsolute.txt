@@ -1,0 +1,11 @@
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\bin\Debug\Api_StarWars.Business.dll
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\bin\Debug\Api_StarWars.Business.pdb
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\bin\Debug\Api_StarWars.Entities.dll
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\bin\Debug\Api_StarWars.Entities.pdb
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\obj\Debug\Api_StarWars.Business.csprojAssemblyReference.cache
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\obj\Debug\Api_StarWars.Business.csproj.CoreCompileInputs.cache
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\obj\Debug\Api_StarWars.Business.csproj.CopyComplete
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\obj\Debug\Api_StarWars.Business.dll
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Business\obj\Debug\Api_StarWars.Business.pdb
