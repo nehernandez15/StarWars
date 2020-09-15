@@ -3,3 +3,4 @@ C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWa
 C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Entities\obj\Debug\Api_StarWars.Entities.csproj.CoreCompileInputs.cache
 C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Entities\obj\Debug\Api_StarWars.Entities.dll
 C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Entities\obj\Debug\Api_StarWars.Entities.pdb
+C:\Users\SIX DEGREES IT\Documents\Personal\StarWars\Back\Api_StarWars\Api_StarWars.Entities\obj\Debug\Api_StarWars.Entities.csprojAssemblyReference.cache
