@@ -12,7 +12,7 @@ export class CharacterService {
   constructor(private httpClient: HttpClient) { }
 
   getCharacters(): Observable<any> {
-    return this.httpClient.get<any>(environment.baseUrl + 'people', {
+    return this.httpClient.get<any>(environment.baseUrl + 'character/getCharacters', {
       headers: new HttpHeaders({Authorization: 'Bearer', 'Content-Type': 'application/json'})
     }).pipe(catchError(this.handleError.bind(this)));
   }

@@ -12,7 +12,7 @@ export class PlanetService {
   constructor(private httpClient: HttpClient) { }
 
   getPlanets(): Observable<any> {
-    return this.httpClient.get<any>(environment.baseUrl + 'planets', {
+    return this.httpClient.get<any>(environment.baseUrl + 'planet/getPlanets', {
       headers: new HttpHeaders({Authorization: 'Bearer', 'Content-Type': 'application/json'})
     }).pipe(catchError(this.handleError.bind(this)));
   }

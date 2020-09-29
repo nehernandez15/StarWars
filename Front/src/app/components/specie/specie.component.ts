@@ -23,7 +23,7 @@ export class SpecieComponent implements OnInit {
   getSpecies() {
     this.loading = true;
     this.specieService.getSpecies().subscribe((data) => {
-      this.specieModel = data;
+      this.specieModel.result = data;
       setTimeout(() => {
         this.loading = false;
       }, 2000);

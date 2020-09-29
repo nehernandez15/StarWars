@@ -23,7 +23,7 @@ export class PlanetComponent implements OnInit {
   getPlanets() {
     this.loading = true;
     this.planetService.getPlanets().subscribe((data) => {
-      this.planetModel = data;
+      this.planetModel.results = data;
       setTimeout(() => {
         this.loading = false;
       }, 2000);

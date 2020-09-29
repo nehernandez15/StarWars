@@ -12,7 +12,7 @@ export class SpecieService {
   constructor(private httpClient: HttpClient) { }
 
   getSpecies(): Observable<any> {
-    return this.httpClient.get<any>(environment.baseUrl + 'species', {
+    return this.httpClient.get<any>(environment.baseUrl + 'specie/getSpecies', {
       headers: new HttpHeaders({Authorization: 'Bearer', 'Content-Type': 'application/json'})
     }).pipe(catchError(this.handleError.bind(this)));
   }

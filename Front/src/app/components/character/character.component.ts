@@ -23,7 +23,7 @@ export class CharacterComponent implements OnInit {
   getCharacters() {
     this.loading = true;
     this.characterService.getCharacters().subscribe((data) => {
-      this.characterModel = data;
+      this.characterModel.results = data;
       setTimeout(() => {
         this.loading = false;
       }, 2000);

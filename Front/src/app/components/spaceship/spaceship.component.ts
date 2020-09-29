@@ -23,7 +23,7 @@ export class SpaceshipComponent implements OnInit {
   getSpaceShips() {
     this.loading = true;
     this.spachipService.getSpaceShips().subscribe((data) => {
-      this.spaceshipModel = data;
+      this.spaceshipModel.results = data;
       setTimeout(() => {
         this.loading = false;
       }, 2000);

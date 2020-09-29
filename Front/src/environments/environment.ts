@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  // baseUrl: 'https://swapi.co/api/'
-  baseUrl: 'http://swapi.py4e.com/api/'
+  baseUrl: 'http://localhost:50103/api/'
+  // baseUrl: 'http://swapi.py4e.com/api/'
 };
 
 /*

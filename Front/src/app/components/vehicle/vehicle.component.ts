@@ -23,7 +23,7 @@ export class VehicleComponent implements OnInit {
   getVehicles() {
     this.loading = true;
     this.vehicleService.getVehicles().subscribe((data) => {
-      this.vehicleModel = data;
+      this.vehicleModel.results = data;
       setTimeout(() => {
         this.loading = false;
       }, 2000);

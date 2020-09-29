@@ -12,7 +12,7 @@ export class VehicleService {
   constructor(private httpClient: HttpClient) { }
 
   getVehicles(): Observable<any> {
-    return this.httpClient.get<any>(environment.baseUrl + 'vehicles', {
+    return this.httpClient.get<any>(environment.baseUrl + 'vehicle/getVehicles', {
       headers: new HttpHeaders({Authorization: 'Bearer', 'Content-Type': 'application/json'})
     }).pipe(catchError(this.handleError.bind(this)));
   }

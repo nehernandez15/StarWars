@@ -12,7 +12,7 @@ export class SpaceshipService {
   constructor(private httpClient: HttpClient) { }
 
   getSpaceShips(): Observable<any> {
-    return this.httpClient.get<any>(environment.baseUrl + 'starships', {
+    return this.httpClient.get<any>(environment.baseUrl + 'spaceShip/getSpaceShips', {
       headers: new HttpHeaders({Authorization: 'Bearer', 'Content-Type': 'application/json'})
     }).pipe(catchError(this.handleError.bind(this)));
   }

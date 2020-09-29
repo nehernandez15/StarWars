@@ -23,7 +23,7 @@ export class FilmComponent implements OnInit {
   getFilms() {
     this.loading = true;
     this.filmService.getFilms().subscribe((data) => {
-      this.filmModel = data;
+      this.filmModel.results = data;
       setTimeout(() => {
         this.loading = false;
       }, 2000);

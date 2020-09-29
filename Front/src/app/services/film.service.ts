@@ -12,7 +12,7 @@ export class FilmService {
   constructor(private httpClient: HttpClient) { }
 
   getFilms(): Observable<any> {
-    return this.httpClient.get<any>(environment.baseUrl + 'films', {
+    return this.httpClient.get<any>(environment.baseUrl + 'film/getFilms', {
       headers: new HttpHeaders({Authorization: 'Bearer', 'Content-Type': 'application/json'})
     }).pipe(catchError(this.handleError.bind(this)));
   }
